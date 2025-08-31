@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: "🤝 Code of Conduct"
-description: "Operations Transformation Encyclopedia Community Standards"
+permalink: /CODE_OF_CONDUCT
 ---
 
 # 🤝 Code of Conduct

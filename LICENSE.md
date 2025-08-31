@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: "📜 License"
-description: "Creative Commons Attribution-ShareAlike 4.0 International"
+permalink: /LICENSE
 ---
 
 # 📜 License

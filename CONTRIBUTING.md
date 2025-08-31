@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: "🤝 Contributing to the Future of Work Encyclopedia"
-description: "Join Our Mission to Democratize Future of Work Knowledge"
+permalink: /CONTRIBUTING
 ---
 
 # 🤝 Contributing to the Future of Work Encyclopedia

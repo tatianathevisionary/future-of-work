@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: "🗺️ Site Navigation & Cross-References"
-description: "Future of Work & Operations Excellence Encyclopedia - Complete Site Map"
+permalink: /NAVIGATION
 ---
 
 # 🗺️ Site Navigation & Cross-References

@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: "🆘 Support & Help"
-description: "Getting Help with the Future of Work Encyclopedia"
+permalink: /SUPPORT
 ---
 
 # 🆘 Support & Help

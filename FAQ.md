@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: "❓ Frequently Asked Questions"
-description: "Future of Work Encyclopedia - Common Questions & Answers"
+permalink: /FAQ
 ---
 
 # ❓ Frequently Asked Questions
