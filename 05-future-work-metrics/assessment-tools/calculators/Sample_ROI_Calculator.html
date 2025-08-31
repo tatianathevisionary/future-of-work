@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Transformation ROI Calculator - Operations Encyclopedia</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .calculator-body {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+            min-height: 600px;
+        }
+
+        .input-section {
+            padding: 40px;
+            background: #f8f9fa;
+            border-right: 1px solid #e9ecef;
+        }
+
+        .results-section {
+            padding: 40px;
+            background: white;
+        }
+
+        .section-title {
+            font-size: 1.5em;
+            color: #2c3e50;
+            margin-bottom: 25px;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        .input-group {
+            margin-bottom: 25px;
+        }
+
+        .input-group label {
+            display: block;
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 8px;
+            font-size: 0.95em;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 1em;
+            transition: border-color 0.3s ease;
+        }
+
+        .input-group input:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+        }
+
+        .input-help {
+            font-size: 0.85em;
+            color: #666;
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        .calculate-btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            margin-top: 20px;
+        }
+
+        .calculate-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(52, 152, 219, 0.3);
+        }
+
+        .results-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .metric-card {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border-left: 5px solid #3498db;
+        }
+
+        .metric-value {
+            font-size: 2em;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .metric-label {
+            font-size: 0.9em;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .roi-summary {
+            background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .roi-summary.negative {
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+        }
+
+        .roi-percentage {
+            font-size: 3em;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .roi-description {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .assumptions {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 25px;
+        }
+
+        .assumptions h3 {
+            color: #856404;
+            margin-bottom: 15px;
+        }
+
+        .assumptions ul {
+            color: #856404;
+            padding-left: 20px;
+        }
+
+        .assumptions li {
+            margin-bottom: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .calculator-body {
+                grid-template-columns: 1fr;
+            }
+            
+            .input-section {
+                border-right: none;
+                border-bottom: 1px solid #e9ecef;
+            }
+            
+            .results-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+        }
+
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+
+        .footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 AI Transformation ROI Calculator</h1>
+            <p>Calculate the financial impact of your AI operations initiative</p>
+        </div>
+
+        <div class="calculator-body">
+            <div class="input-section">
+                <h2 class="section-title">📊 Input Parameters</h2>
+                
+                <div class="input-group">
+                    <label for="currentCosts">Current Annual Operating Costs ($)</label>
+                    <input type="number" id="currentCosts" placeholder="e.g., 5000000" value="5000000">
+                    <div class="input-help">Total annual costs for processes you plan to optimize</div>
+                </div>
+
+                <div class="input-group">
+                    <label for="aiImplementationCost">AI Implementation Cost ($)</label>
+                    <input type="number" id="aiImplementationCost" placeholder="e.g., 500000" value="500000">
+                    <div class="input-help">One-time cost for AI system development and deployment</div>
+                </div>
+
+                <div class="input-group">
+                    <label for="annualAiCosts">Annual AI Operating Costs ($)</label>
+                    <input type="number" id="annualAiCosts" placeholder="e.g., 200000" value="200000">
+                    <div class="input-help">Ongoing costs for AI maintenance, cloud services, and support</div>
+                </div>
+
+                <div class="input-group">
+                    <label for="efficiencyGain">Expected Efficiency Gain (%)</label>
+                    <input type="number" id="efficiencyGain" placeholder="e.g., 35" value="35" min="0" max="100">
+                    <div class="input-help">Percentage reduction in operational costs through AI automation</div>
+                </div>
+
+                <div class="input-group">
+                    <label for="revenueIncrease">Expected Revenue Increase (%)</label>
+                    <input type="number" id="revenueIncrease" placeholder="e.g., 15" value="15" min="0" max="100">
+                    <div class="input-help">Revenue growth from improved customer experience and new capabilities</div>
+                </div>
+
+                <div class="input-group">
+                    <label for="currentRevenue">Current Annual Revenue ($)</label>
+                    <input type="number" id="currentRevenue" placeholder="e.g., 20000000" value="20000000">
+                    <div class="input-help">Your organization's current annual revenue</div>
+                </div>
+
+                <div class="input-group">
+                    <label for="timeHorizon">Time Horizon (Years)</label>
+                    <input type="number" id="timeHorizon" placeholder="e.g., 3" value="3" min="1" max="10">
+                    <div class="input-help">Analysis period for ROI calculation</div>
+                </div>
+
+                <button class="calculate-btn" onclick="calculateROI()">🚀 Calculate ROI</button>
+            </div>
+
+            <div class="results-section">
+                <h2 class="section-title">📈 Results & Analysis</h2>
+                
+                <div id="roiSummary" class="roi-summary">
+                    <div class="roi-percentage" id="roiPercentage">--</div>
+                    <div class="roi-description" id="roiDescription">Enter your parameters and click Calculate ROI</div>
+                </div>
+
+                <div class="results-grid">
+                    <div class="metric-card">
+                        <div class="metric-value" id="totalSavings">$--</div>
+                        <div class="metric-label">Total Savings</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value" id="paybackPeriod">-- months</div>
+                        <div class="metric-label">Payback Period</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value" id="netPresentValue">$--</div>
+                        <div class="metric-label">Net Present Value</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value" id="annualSavings">$--</div>
+                        <div class="metric-label">Annual Savings</div>
+                    </div>
+                </div>
+
+                <div class="assumptions">
+                    <h3>📋 Key Assumptions</h3>
+                    <ul>
+                        <li>Discount rate of 10% for NPV calculations</li>
+                        <li>Linear implementation of efficiency gains over first year</li>
+                        <li>Revenue increases begin in month 6 of implementation</li>
+                        <li>AI operating costs remain constant (inflation-adjusted)</li>
+                        <li>No additional capital expenditures beyond initial implementation</li>
+                        <li>Tax implications not included in calculations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>🏛️ <strong>Operations Transformation Encyclopedia</strong> | 
+            <a href="https://github.com/operations-encyclopedia/knowledge-base">Open Source Knowledge Base</a> | 
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 License</a></p>
+        </div>
+    </div>
+
+    <script>
+        function calculateROI() {
+            // Get input values
+            const currentCosts = parseFloat(document.getElementById('currentCosts').value) || 0;
+            const aiImplementationCost = parseFloat(document.getElementById('aiImplementationCost').value) || 0;
+            const annualAiCosts = parseFloat(document.getElementById('annualAiCosts').value) || 0;
+            const efficiencyGain = parseFloat(document.getElementById('efficiencyGain').value) || 0;
+            const revenueIncrease = parseFloat(document.getElementById('revenueIncrease').value) || 0;
+            const currentRevenue = parseFloat(document.getElementById('currentRevenue').value) || 0;
+            const timeHorizon = parseFloat(document.getElementById('timeHorizon').value) || 3;
+
+            // Calculate annual benefits
+            const annualCostSavings = currentCosts * (efficiencyGain / 100);
+            const annualRevenueIncrease = currentRevenue * (revenueIncrease / 100);
+            const totalAnnualBenefits = annualCostSavings + annualRevenueIncrease;
+            const netAnnualBenefits = totalAnnualBenefits - annualAiCosts;
+
+            // Calculate total costs and benefits over time horizon
+            const totalImplementationCost = aiImplementationCost;
+            const totalOperatingCosts = annualAiCosts * timeHorizon;
+            const totalCosts = totalImplementationCost + totalOperatingCosts;
+            const totalBenefits = totalAnnualBenefits * timeHorizon;
+            const netBenefits = totalBenefits - totalCosts;
+
+            // Calculate ROI percentage
+            const roiPercentage = totalCosts > 0 ? ((netBenefits / totalCosts) * 100) : 0;
+
+            // Calculate payback period (in months)
+            const monthlyNetBenefits = netAnnualBenefits / 12;
+            const paybackMonths = monthlyNetBenefits > 0 ? (aiImplementationCost / monthlyNetBenefits) : 999;
+
+            // Calculate NPV (assuming 10% discount rate)
+            const discountRate = 0.10;
+            let npv = -aiImplementationCost; // Initial investment
+            for (let year = 1; year <= timeHorizon; year++) {
+                npv += netAnnualBenefits / Math.pow(1 + discountRate, year);
+            }
+
+            // Update display
+            updateResults(roiPercentage, netBenefits, paybackMonths, npv, netAnnualBenefits);
+        }
+
+        function updateResults(roi, totalSavings, paybackMonths, npv, annualSavings) {
+            // Update ROI summary
+            const roiSummary = document.getElementById('roiSummary');
+            const roiPercentageEl = document.getElementById('roiPercentage');
+            const roiDescriptionEl = document.getElementById('roiDescription');
+
+            roiPercentageEl.textContent = roi.toFixed(0) + '%';
+            
+            if (roi > 0) {
+                roiSummary.className = 'roi-summary';
+                roiDescriptionEl.textContent = 'Positive ROI - Recommended Investment';
+            } else {
+                roiSummary.className = 'roi-summary negative';
+                roiDescriptionEl.textContent = 'Negative ROI - Review Parameters';
+            }
+
+            // Update metric cards
+            document.getElementById('totalSavings').textContent = formatCurrency(totalSavings);
+            document.getElementById('paybackPeriod').textContent = paybackMonths < 999 ? 
+                paybackMonths.toFixed(1) + ' months' : '> 10 years';
+            document.getElementById('netPresentValue').textContent = formatCurrency(npv);
+            document.getElementById('annualSavings').textContent = formatCurrency(annualSavings);
+        }
+
+        function formatCurrency(amount) {
+            if (Math.abs(amount) >= 1000000) {
+                return '$' + (amount / 1000000).toFixed(1) + 'M';
+            } else if (Math.abs(amount) >= 1000) {
+                return '$' + (amount / 1000).toFixed(0) + 'K';
+            } else {
+                return '$' + amount.toFixed(0);
+            }
+        }
+
+        // Add input event listeners for real-time calculation
+        document.addEventListener('DOMContentLoaded', function() {
+            const inputs = document.querySelectorAll('input');
+            inputs.forEach(input => {
+                input.addEventListener('input', function() {
+                    // Auto-calculate after a short delay
+                    clearTimeout(this.timeout);
+                    this.timeout = setTimeout(calculateROI, 500);
+                });
+            });
+
+            // Initial calculation with default values
+            calculateROI();
+        });
+
+        // Add keyboard shortcut for calculation (Ctrl+Enter)
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey && e.key === 'Enter') {
+                calculateROI();
+            }
+        });
+    </script>
+</body>
+</html>

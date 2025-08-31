@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI ROI Calculator - AI Transformation Financial Modeling</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .calculator-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .calculator-section {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #3498db;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .input-group input, .input-group select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        .input-group input:focus, .input-group select:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+        }
+
+        .input-group .help-text {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            margin-top: 5px;
+        }
+
+        .results-section {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+        }
+
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .result-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .result-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            opacity: 0.9;
+        }
+
+        .result-card .value {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .result-card .unit {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        .chart-container {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+        }
+
+        .chart-placeholder {
+            height: 300px;
+            background: linear-gradient(45deg, #f0f0f0 25%, transparent 25%), 
+                        linear-gradient(-45deg, #f0f0f0 25%, transparent 25%), 
+                        linear-gradient(45deg, transparent 75%, #f0f0f0 75%), 
+                        linear-gradient(-45deg, transparent 75%, #f0f0f0 75%);
+            background-size: 20px 20px;
+            background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #7f8c8d;
+            font-size: 1.1rem;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            width: 100%;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .scenario-tabs {
+            display: flex;
+            margin-bottom: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 5px;
+        }
+
+        .scenario-tab {
+            flex: 1;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .scenario-tab.active {
+            background: #3498db;
+            color: white;
+        }
+
+        .scenario-tab:hover:not(.active) {
+            background: #e9ecef;
+        }
+
+        .assumptions-panel {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .assumptions-panel h4 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .assumption-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .assumption-item:last-child {
+            border-bottom: none;
+        }
+
+        .assumption-label {
+            font-weight: 500;
+            color: #495057;
+        }
+
+        .assumption-value {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        @media (max-width: 768px) {
+            .calculator-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .results-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 AI ROI Calculator</h1>
+            <p>Comprehensive Financial Modeling for AI Transformation Initiatives</p>
+        </div>
+
+        <div class="calculator-grid">
+            <!-- Input Section -->
+            <div class="calculator-section">
+                <h2 class="section-title">📊 Project Parameters</h2>
+                
+                <div class="input-group">
+                    <label for="projectName">Project Name</label>
+                    <input type="text" id="projectName" placeholder="Enter project name" value="AI Operations Transformation">
+                </div>
+
+                <div class="input-group">
+                    <label for="projectDuration">Project Duration (months)</label>
+                    <input type="number" id="projectDuration" min="1" max="60" value="18">
+                    <div class="help-text">Expected time to complete the AI transformation</div>
+                </div>
+
+                <div class="input-group">
+                    <label for="industry">Industry</label>
+                    <select id="industry">
+                        <option value="manufacturing">Manufacturing</option>
+                        <option value="financial">Financial Services</option>
+                        <option value="healthcare">Healthcare</option>
+                        <option value="retail">Retail & E-commerce</option>
+                        <option value="technology">Technology</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="companySize">Company Size (employees)</label>
+                    <select id="companySize">
+                        <option value="small">Small (1-100)</option>
+                        <option value="medium">Medium (101-1000)</option>
+                        <option value="large">Large (1001-10000)</option>
+                        <option value="enterprise">Enterprise (10000+)</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Costs Section -->
+            <div class="calculator-section">
+                <h2 class="section-title">💰 Investment Costs</h2>
+                
+                <div class="input-group">
+                    <label for="technologyCosts">Technology Infrastructure ($)</label>
+                    <input type="number" id="technologyCosts" min="0" value="500000">
+                    <div class="help-text">Software, hardware, cloud services</div>
+                </div>
+
+                <div class="input-group">
+                    <label for="developmentCosts">Development & Implementation ($)</label>
+                    <input type="number" id="developmentCosts" min="0" value="750000">
+                    <div class="help-text">Internal team, consultants, training</div>
+                </div>
+
+                <div class="input-group">
+                    <label for="operationalCosts">Annual Operational Costs ($)</label>
+                    <input type="number" id="operationalCosts" min="0" value="200000">
+                    <div class="help-text">Maintenance, support, ongoing costs</div>
+                </div>
+
+                <div class="input-group">
+                    <label for="riskBuffer">Risk Buffer (%)</label>
+                    <input type="number" id="riskBuffer" min="0" max="50" value="15">
+                    <div class="help-text">Additional contingency for unexpected costs</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Benefits Section -->
+        <div class="calculator-section">
+            <h2 class="section-title">📈 Expected Benefits</h2>
+            
+            <div class="scenario-tabs">
+                <div class="scenario-tab active" onclick="switchScenario('conservative')">Conservative</div>
+                <div class="scenario-tab" onclick="switchScenario('realistic')">Realistic</div>
+                <div class="scenario-tab" onclick="switchScenario('optimistic')">Optimistic</div>
+            </div>
+
+            <div class="calculator-grid">
+                <div class="input-group">
+                    <label for="efficiencyGains">Process Efficiency Improvement (%)</label>
+                    <input type="number" id="efficiencyGains" min="0" max="100" value="25">
+                    <div class="help-text">Expected improvement in operational efficiency</div>
+                </div>
+
+                <div class="input-group">
+                    <label for="costSavings">Annual Cost Savings ($)</label>
+                    <input type="number" id="costSavings" min="0" value="400000">
+                    <div class="help-text">Direct cost savings from automation</div>
+                </div>
+
+                <div class="input-group">
+                    <label for="revenueIncrease">Annual Revenue Increase ($)</label>
+                    <input type="number" id="revenueIncrease" min="0" value="300000">
+                    <div class="help-text">Additional revenue from improved operations</div>
+                </div>
+
+                <div class="input-group">
+                    <label for="qualityImprovement">Quality Improvement (%)</label>
+                    <input type="number" id="qualityImprovement" min="0" max="100" value="15">
+                    <div class="help-text">Reduction in errors and defects</div>
+                </div>
+            </div>
+
+            <button class="btn" onclick="calculateROI()">🚀 Calculate AI ROI</button>
+        </div>
+
+        <!-- Results Section -->
+        <div class="results-section" id="resultsSection" style="display: none;">
+            <h2 class="section-title">🏆 ROI Analysis Results</h2>
+            
+            <div class="results-grid">
+                <div class="result-card">
+                    <h3>Total Investment</h3>
+                    <div class="value" id="totalInvestment">$0</div>
+                    <div class="unit">One-time costs</div>
+                </div>
+
+                <div class="result-card">
+                    <h3>Annual Benefits</h3>
+                    <div class="value" id="annualBenefits">$0</div>
+                    <div class="unit">Cost savings + Revenue</div>
+                </div>
+
+                <div class="result-card">
+                    <h3>ROI</h3>
+                    <div class="value" id="roi">0%</div>
+                    <div class="unit">Return on Investment</div>
+                </div>
+
+                <div class="result-card">
+                    <h3>Payback Period</h3>
+                    <div class="value" id="paybackPeriod">0</div>
+                    <div class="unit">Months</div>
+                </div>
+
+                <div class="result-card">
+                    <h3>NPV (3 years)</h3>
+                    <div class="value" id="npv">$0</div>
+                    <div class="unit">Net Present Value</div>
+                </div>
+
+                <div class="result-card">
+                    <h3>IRR</h3>
+                    <div class="value" id="irr">0%</div>
+                    <div class="unit">Internal Rate of Return</div>
+                </div>
+            </div>
+
+            <div class="assumptions-panel">
+                <h4>📋 Key Assumptions</h4>
+                <div class="assumption-item">
+                    <span class="assumption-label">Discount Rate:</span>
+                    <span class="assumption-value">8% (industry standard)</span>
+                </div>
+                <div class="assumption-item">
+                    <span class="assumption-label">Benefit Realization:</span>
+                    <span class="assumption-value">Phased over project duration</span>
+                </div>
+                <div class="assumption-item">
+                    <span class="assumption-label">Risk Adjustment:</span>
+                    <span class="assumption-value">Applied to cost estimates</span>
+                </div>
+                <div class="assumption-item">
+                    <span class="assumption-label">Maintenance Costs:</span>
+                    <span class="assumption-value">15% of initial investment annually</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chart Section -->
+        <div class="chart-container">
+            <h2 class="section-title">📊 Financial Timeline Visualization</h2>
+            <div class="chart-placeholder">
+                Chart will be generated here showing cash flows over time
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentScenario = 'realistic';
+        const scenarioDefaults = {
+            conservative: {
+                efficiencyGains: 15,
+                costSavings: 250000,
+                revenueIncrease: 150000,
+                qualityImprovement: 10
+            },
+            realistic: {
+                efficiencyGains: 25,
+                costSavings: 400000,
+                revenueIncrease: 300000,
+                qualityImprovement: 15
+            },
+            optimistic: {
+                efficiencyGains: 40,
+                costSavings: 600000,
+                revenueIncrease: 500000,
+                qualityImprovement: 25
+            }
+        };
+
+        function switchScenario(scenario) {
+            currentScenario = scenario;
+            
+            // Update active tab
+            document.querySelectorAll('.scenario-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // Update values
+            const defaults = scenarioDefaults[scenario];
+            document.getElementById('efficiencyGains').value = defaults.efficiencyGains;
+            document.getElementById('costSavings').value = defaults.costSavings;
+            document.getElementById('revenueIncrease').value = defaults.revenueIncrease;
+            document.getElementById('qualityImprovement').value = defaults.qualityImprovement;
+        }
+
+        function calculateROI() {
+            // Get input values
+            const projectDuration = parseFloat(document.getElementById('projectDuration').value);
+            const technologyCosts = parseFloat(document.getElementById('technologyCosts').value);
+            const developmentCosts = parseFloat(document.getElementById('developmentCosts').value);
+            const operationalCosts = parseFloat(document.getElementById('operationalCosts').value);
+            const riskBuffer = parseFloat(document.getElementById('riskBuffer').value) / 100;
+            
+            const efficiencyGains = parseFloat(document.getElementById('efficiencyGains').value) / 100;
+            const costSavings = parseFloat(document.getElementById('costSavings').value);
+            const revenueIncrease = parseFloat(document.getElementById('revenueIncrease').value);
+            const qualityImprovement = parseFloat(document.getElementById('qualityImprovement').value) / 100;
+
+            // Calculate costs
+            const baseCosts = technologyCosts + developmentCosts;
+            const riskAdjustedCosts = baseCosts * (1 + riskBuffer);
+            const totalInvestment = riskAdjustedCosts;
+
+            // Calculate benefits
+            const annualBenefits = costSavings + revenueIncrease;
+            const totalBenefits = annualBenefits * projectDuration;
+
+            // Calculate ROI
+            const roi = ((totalBenefits - totalInvestment) / totalInvestment) * 100;
+
+            // Calculate payback period
+            const paybackPeriod = (totalInvestment / annualBenefits) * 12; // in months
+
+            // Calculate NPV (3 years, 8% discount rate)
+            const discountRate = 0.08;
+            let npv = -totalInvestment;
+            for (let year = 1; year <= 3; year++) {
+                npv += annualBenefits / Math.pow(1 + discountRate, year);
+            }
+
+            // Calculate IRR (simplified)
+            const irr = (annualBenefits / totalInvestment) * 100;
+
+            // Display results
+            document.getElementById('totalInvestment').textContent = '$' + totalInvestment.toLocaleString();
+            document.getElementById('annualBenefits').textContent = '$' + annualBenefits.toLocaleString();
+            document.getElementById('roi').textContent = roi.toFixed(1) + '%';
+            document.getElementById('paybackPeriod').textContent = paybackPeriod.toFixed(1);
+            document.getElementById('npv').textContent = '$' + npv.toLocaleString();
+            document.getElementById('irr').textContent = irr.toFixed(1) + '%';
+
+            // Show results section
+            document.getElementById('resultsSection').style.display = 'block';
+
+            // Scroll to results
+            document.getElementById('resultsSection').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Initialize with realistic scenario
+        document.addEventListener('DOMContentLoaded', function() {
+            switchScenario('realistic');
+        });
+    </script>
+</body>
+</html>
