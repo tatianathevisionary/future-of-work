@@ -265,4 +265,4 @@ The framework evaluates capabilities across six key categories:
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

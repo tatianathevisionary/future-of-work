@@ -329,4 +329,4 @@ This Community Resources framework provides comprehensive community networks, fo
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

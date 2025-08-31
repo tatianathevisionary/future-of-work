@@ -508,4 +508,4 @@ Our comprehensive learning paths provide structured, progressive development in 
 
 ---
 
-*Last updated: December 2024 | Learning paths: 15+ | Certification levels: 5 | Career impact: 85% growth*
+*Last updated: August 2025 | Learning paths: 15+ | Certification levels: 5 | Career impact: 85% growth*

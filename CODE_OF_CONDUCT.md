@@ -333,6 +333,6 @@ Our code of conduct is a living document that evolves with our community. We wel
 
 **🤝 Together, we create a space where everyone can contribute to operational excellence**
 
-*Last updated: December 2024 | Next review: March 2025*
+*Last updated: August 2025 | Next review: March 2025*
 
 </div>

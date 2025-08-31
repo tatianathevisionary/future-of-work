@@ -439,4 +439,4 @@ The foundation of operational excellence lies in understanding proven methodolog
 
 ---
 
-*Last updated: December 2024 | Books: 50+ | Authors: 30+ | Categories: 8*
+*Last updated: August 2025 | Books: 50+ | Authors: 30+ | Categories: 8*

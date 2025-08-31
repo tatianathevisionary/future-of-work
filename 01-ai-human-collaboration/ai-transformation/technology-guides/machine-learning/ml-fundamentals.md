@@ -496,4 +496,4 @@
 
 ---
 
-*Last updated: December 2024 | Success rate: 90% | Learning time: 8-12 weeks | Organizations: 1000+*
+*Last updated: August 2025 | Success rate: 90% | Learning time: 8-12 weeks | Organizations: 1000+*

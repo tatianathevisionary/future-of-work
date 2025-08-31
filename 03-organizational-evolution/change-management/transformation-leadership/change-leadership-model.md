@@ -354,4 +354,4 @@ The Change Leadership Model provides a comprehensive framework for leading organ
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

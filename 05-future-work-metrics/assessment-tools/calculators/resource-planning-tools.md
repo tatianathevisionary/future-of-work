@@ -398,4 +398,4 @@ This Resource Planning framework provides comprehensive tools for planning, allo
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

@@ -268,4 +268,4 @@ The assessment evaluates readiness across seven core dimensions:
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

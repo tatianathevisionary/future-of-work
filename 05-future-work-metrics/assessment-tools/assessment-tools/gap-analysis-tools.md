@@ -240,4 +240,4 @@ The framework analyzes gaps across five key categories:
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

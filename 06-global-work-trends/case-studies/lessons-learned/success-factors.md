@@ -281,4 +281,4 @@ A comprehensive data strategy with proper governance, quality management, and an
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

@@ -190,4 +190,4 @@ Computer vision is a critical AI technology that enables machines to interpret a
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

@@ -414,4 +414,4 @@ Digital transformation is the integration of digital technology into all areas o
 
 ---
 
-*Last updated: December 2024 | Success rate: 76% | Average ROI: 240% | Organizations: 1,800+ | Time to value: 6-12 months*
+*Last updated: August 2025 | Success rate: 76% | Average ROI: 240% | Organizations: 1,800+ | Time to value: 6-12 months*

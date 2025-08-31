@@ -251,4 +251,4 @@ This case study examines the successful AI transformation of a Fortune 500 finan
 
 ---
 
-*Last updated: December 2024 | ROI: 285% | Automation: 78% | Savings: $25M | Implementation: 32 weeks*
+*Last updated: August 2025 | ROI: 285% | Automation: 78% | Savings: $25M | Implementation: 32 weeks*

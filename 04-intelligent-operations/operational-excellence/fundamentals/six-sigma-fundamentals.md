@@ -698,4 +698,4 @@ Six Sigma uses a martial arts-inspired belt system to denote expertise levels:
 
 ---
 
-*Last updated: December 2024 | Success rate: 87% | Average quality improvement: 40% | Defect rate: 3.4 DPMO*
+*Last updated: August 2025 | Success rate: 87% | Average quality improvement: 40% | Defect rate: 3.4 DPMO*

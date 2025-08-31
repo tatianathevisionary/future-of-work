@@ -151,7 +151,7 @@ The Research & Data Hub serves as the central repository for industry intelligen
 | **Industry Research** | Quarterly | Q4 2024 | Q1 2025 |
 | **Benchmarking Data** | Semi-annually | Q3 2024 | Q1 2025 |
 | **Survey Results** | Annually | Q4 2024 | Q4 2025 |
-| **Trend Analysis** | Monthly | December 2024 | January 2025 |
+| **Trend Analysis** | Monthly | August 2025 | January 2025 |
 
 ---
 
@@ -225,4 +225,4 @@ The Research & Data Hub serves as the central repository for industry intelligen
 
 ---
 
-*Last updated: December 2024 | Data sources: 100+ | Update frequency: Quarterly | Quality standard: Academic Grade*
+*Last updated: August 2025 | Data sources: 100+ | Update frequency: Quarterly | Quality standard: Academic Grade*

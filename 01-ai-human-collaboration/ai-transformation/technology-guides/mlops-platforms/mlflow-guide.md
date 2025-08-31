@@ -441,4 +441,4 @@ entry_points:
 
 ---
 
-*Last updated: December 2024 | Success rate: 85% | Implementation time: 4-8 weeks | Organizations: 800+*
+*Last updated: August 2025 | Success rate: 85% | Implementation time: 4-8 weeks | Organizations: 800+*

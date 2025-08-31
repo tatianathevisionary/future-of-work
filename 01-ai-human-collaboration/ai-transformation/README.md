@@ -442,4 +442,4 @@ Artificial Intelligence is revolutionizing operations across every industry. Org
 
 ---
 
-*Last updated: December 2024 | Success rate: 78% | Average ROI: 285% | Organizations: 634+ | Time to value: 90 days*
+*Last updated: August 2025 | Success rate: 78% | Average ROI: 285% | Organizations: 634+ | Time to value: 90 days*

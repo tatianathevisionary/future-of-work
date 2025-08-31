@@ -261,4 +261,4 @@ Compliance considerations for technology R&D management.
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

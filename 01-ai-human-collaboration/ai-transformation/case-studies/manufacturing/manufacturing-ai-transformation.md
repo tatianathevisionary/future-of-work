@@ -480,4 +480,4 @@
 
 ---
 
-*Last updated: December 2024 | Implementation time: 18 months | Annual savings: $50M | Efficiency improvement: 89%*
+*Last updated: August 2025 | Implementation time: 18 months | Annual savings: $50M | Efficiency improvement: 89%*

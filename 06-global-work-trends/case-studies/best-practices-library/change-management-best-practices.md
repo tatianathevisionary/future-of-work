@@ -286,4 +286,4 @@ Cultural transformation and alignment involves transforming organizational cultu
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

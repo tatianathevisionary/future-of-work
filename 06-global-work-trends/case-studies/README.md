@@ -157,4 +157,4 @@ Compiled best practices and proven methodologies.
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

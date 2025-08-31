@@ -281,4 +281,4 @@ Transforming organizational culture to support digital transformation is essenti
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

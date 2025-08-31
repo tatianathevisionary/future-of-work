@@ -281,4 +281,4 @@ Customer and market metrics measure the impact of digital transformation on cust
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

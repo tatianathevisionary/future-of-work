@@ -218,4 +218,4 @@ Predictive modeling uses machine learning algorithms to forecast future outcomes
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

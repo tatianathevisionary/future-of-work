@@ -428,4 +428,4 @@ You're now part of an amazing global network of operations excellence profession
 
 ---
 
-*Last updated: December 2024 | Onboarding success rate: 95% | Average time to value: 2 weeks | Member satisfaction: 9.2/10*
+*Last updated: August 2025 | Onboarding success rate: 95% | Average time to value: 2 weeks | Member satisfaction: 9.2/10*

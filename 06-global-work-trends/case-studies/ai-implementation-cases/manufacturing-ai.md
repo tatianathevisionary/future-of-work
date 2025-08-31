@@ -269,4 +269,4 @@ This case study collection showcases successful AI implementations in the manufa
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

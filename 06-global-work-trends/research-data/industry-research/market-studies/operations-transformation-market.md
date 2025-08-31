@@ -471,4 +471,4 @@ The global operations transformation market has experienced unprecedented growth
 
 ---
 
-*Research conducted: December 2024 | Sample size: 2,500+ organizations | Geographic coverage: Global | Confidence level: 95%*
+*Research conducted: August 2025 | Sample size: 2,500+ organizations | Geographic coverage: Global | Confidence level: 95%*

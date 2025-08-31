@@ -190,4 +190,4 @@ Operational efficiency metrics are the foundation of performance measurement, pr
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

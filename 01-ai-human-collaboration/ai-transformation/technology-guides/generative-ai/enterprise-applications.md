@@ -442,4 +442,4 @@ GenAI Output:
 
 ---
 
-*Last updated: December 2024 | Enterprise adoption: 67% | Average ROI: 340% | Productivity gain: 55% | Time to value: 45 days*
+*Last updated: August 2025 | Enterprise adoption: 67% | Average ROI: 340% | Productivity gain: 55% | Time to value: 45 days*

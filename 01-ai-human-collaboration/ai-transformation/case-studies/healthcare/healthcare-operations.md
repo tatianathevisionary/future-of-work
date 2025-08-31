@@ -251,4 +251,4 @@ This case study examines the successful AI transformation of a major healthcare 
 
 ---
 
-*Last updated: December 2024 | ROI: 240% | Wait Time Reduction: 40% | Savings: $15M | Implementation: 40 weeks*
+*Last updated: August 2025 | ROI: 240% | Wait Time Reduction: 40% | Savings: $15M | Implementation: 40 weeks*

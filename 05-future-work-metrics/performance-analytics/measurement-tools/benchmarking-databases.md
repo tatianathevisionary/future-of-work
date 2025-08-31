@@ -196,4 +196,4 @@ Benchmarking databases provide comprehensive industry and peer comparison data, 
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

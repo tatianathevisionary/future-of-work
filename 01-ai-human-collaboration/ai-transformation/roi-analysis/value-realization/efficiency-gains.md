@@ -224,4 +224,4 @@ Efficiency gains represent one of the most significant value drivers in AI trans
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

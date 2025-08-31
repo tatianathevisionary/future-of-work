@@ -407,4 +407,4 @@ This Communication framework provides comprehensive templates for planning, exec
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

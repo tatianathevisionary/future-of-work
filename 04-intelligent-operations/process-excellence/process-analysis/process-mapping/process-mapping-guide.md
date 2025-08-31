@@ -243,4 +243,4 @@ Role 1: [Process Step 1] → [Handoff] → Role 2: [Process Step 2] → [Handoff
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

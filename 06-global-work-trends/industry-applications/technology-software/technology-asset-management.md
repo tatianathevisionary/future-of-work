@@ -261,4 +261,4 @@ Compliance considerations for technology asset management.
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

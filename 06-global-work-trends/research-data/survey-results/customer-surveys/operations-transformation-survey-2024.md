@@ -360,4 +360,4 @@ This comprehensive survey of 500+ operations transformation customers across 15 
 
 ---
 
-*Last updated: December 2024 | Survey respondents: 500+ | Industries covered: 15 | Response rate: 78%*
+*Last updated: August 2025 | Survey respondents: 500+ | Industries covered: 15 | Response rate: 78%*

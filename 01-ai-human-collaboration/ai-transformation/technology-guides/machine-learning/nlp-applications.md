@@ -218,4 +218,4 @@ Natural Language Processing (NLP) enables machines to understand, interpret, and
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

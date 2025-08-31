@@ -261,4 +261,4 @@ Compliance with privacy regulations.
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

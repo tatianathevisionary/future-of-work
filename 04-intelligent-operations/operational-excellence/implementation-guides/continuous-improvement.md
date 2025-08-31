@@ -313,4 +313,4 @@
 
 ---
 
-*Last updated: December 2024 | Success rate: 91% | Implementation time: Ongoing | Organizations: 1200+*
+*Last updated: August 2025 | Success rate: 91% | Implementation time: Ongoing | Organizations: 1200+*

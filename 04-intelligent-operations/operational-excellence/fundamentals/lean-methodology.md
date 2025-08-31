@@ -717,4 +717,4 @@ Example: 480 minutes / 240 units = 2 minutes per unit
 
 ---
 
-*Last updated: December 2024 | Success rate: 89% | Average cost reduction: 25% | Implementation time: 6-12 months*
+*Last updated: August 2025 | Success rate: 89% | Average cost reduction: 25% | Implementation time: 6-12 months*

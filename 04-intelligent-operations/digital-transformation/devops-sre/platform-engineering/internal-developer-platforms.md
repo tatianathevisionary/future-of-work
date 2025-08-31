@@ -436,4 +436,4 @@ spec:
 
 ---
 
-*Last updated: December 2024 | Enterprise adoption: 73% | Productivity gain: 65% | Deploy time reduction: 85% | MTTR reduction: 70%*
+*Last updated: August 2025 | Enterprise adoption: 73% | Productivity gain: 65% | Deploy time reduction: 85% | MTTR reduction: 70%*

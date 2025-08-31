@@ -291,4 +291,4 @@ This case study collection showcases successful technology adoption initiatives 
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

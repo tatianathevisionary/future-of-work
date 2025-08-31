@@ -231,4 +231,4 @@ Overcoming resistance is a critical component of successful organizational chang
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

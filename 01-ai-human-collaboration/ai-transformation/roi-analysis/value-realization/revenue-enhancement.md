@@ -224,4 +224,4 @@ Revenue enhancement represents a critical value driver in AI transformation init
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

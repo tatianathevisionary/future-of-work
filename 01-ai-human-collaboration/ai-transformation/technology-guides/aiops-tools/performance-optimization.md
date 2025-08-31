@@ -746,4 +746,4 @@ class AutoScaler:
 
 ---
 
-*Last updated: December 2024 | Success rate: 85% | Implementation time: 8-16 weeks | Organizations: 750+*
+*Last updated: August 2025 | Success rate: 85% | Implementation time: 8-16 weeks | Organizations: 750+*

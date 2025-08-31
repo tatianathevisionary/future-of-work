@@ -360,4 +360,4 @@
 
 ---
 
-*Last updated: December 2024 | Success rate: 89% | Implementation time: 18 months | ROI: 450%*
+*Last updated: August 2025 | Success rate: 89% | Implementation time: 18 months | ROI: 450%*

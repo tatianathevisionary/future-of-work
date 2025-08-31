@@ -291,4 +291,4 @@ This case study collection showcases successful AI implementation initiatives in
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

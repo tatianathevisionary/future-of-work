@@ -269,4 +269,4 @@
 
 ---
 
-*Last updated: December 2024 | Success rate: 87% | Implementation time: 12-24 months | ROI: 35-60% overall effectiveness*
+*Last updated: August 2025 | Success rate: 87% | Implementation time: 12-24 months | ROI: 35-60% overall effectiveness*

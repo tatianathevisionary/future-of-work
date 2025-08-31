@@ -538,4 +538,4 @@ Performance measurement and analytics form the foundation of data-driven decisio
 
 ---
 
-*Last updated: December 2024 | Organizations: 3,200+ | Performance improvement: 42% | Decision speed: 65% faster*
+*Last updated: August 2025 | Organizations: 3,200+ | Performance improvement: 42% | Decision speed: 65% faster*

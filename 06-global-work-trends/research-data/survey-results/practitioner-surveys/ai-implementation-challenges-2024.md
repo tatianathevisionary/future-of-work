@@ -363,4 +363,4 @@ This practitioner-focused survey of 300+ AI implementation professionals across 
 
 ---
 
-*Last updated: December 2024 | Survey respondents: 300+ | Industries covered: 12 | Response rate: 82%*
+*Last updated: August 2025 | Survey respondents: 300+ | Industries covered: 12 | Response rate: 82%*

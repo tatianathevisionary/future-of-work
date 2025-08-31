@@ -460,4 +460,4 @@ This forward-looking analysis predicts the evolution of operations excellence th
 
 ---
 
-*Last updated: December 2024 | Research sources: 100+ | Prediction horizon: 2025-2030 | Scenarios analyzed: 3*
+*Last updated: August 2025 | Research sources: 100+ | Prediction horizon: 2025-2030 | Scenarios analyzed: 3*

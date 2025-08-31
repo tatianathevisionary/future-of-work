@@ -482,4 +482,4 @@ This comprehensive market analysis reveals the operations transformation market 
 
 ---
 
-*Last updated: December 2024 | Research sources: 100+ | Market data: 2023-2030 | Companies analyzed: 500+*
+*Last updated: August 2025 | Research sources: 100+ | Market data: 2023-2030 | Companies analyzed: 500+*

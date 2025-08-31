@@ -192,4 +192,4 @@ Leverage multiple cloud providers for different AI capabilities.
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

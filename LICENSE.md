@@ -336,4 +336,4 @@ By choosing to use and respect our Creative Commons license, you're helping us b
 
 ---
 
-*Last updated: December 2024 | License version: CC BY-SA 4.0 International | Questions resolved: 500+*
+*Last updated: August 2025 | License version: CC BY-SA 4.0 International | Questions resolved: 500+*

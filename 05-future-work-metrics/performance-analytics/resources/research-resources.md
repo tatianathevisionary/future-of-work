@@ -318,4 +318,4 @@ This research compilation was conducted using advanced search and analysis tools
 
 ---
 
-*Research compiled: December 2024 | Sources: 28+ | Academic papers: 16+ | Industry reports: 20+ | Last updated: December 2024*
+*Research compiled: August 2025 | Sources: 28+ | Academic papers: 16+ | Industry reports: 20+ | Last updated: August 2025*

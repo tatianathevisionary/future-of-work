@@ -389,4 +389,4 @@ Our community research initiatives bring together operations excellence professi
 
 ---
 
-*Last updated: December 2024 | Active projects: 50+ | Member participation: 2,000+ | Research impact: High*
+*Last updated: August 2025 | Active projects: 50+ | Member participation: 2,000+ | Research impact: High*

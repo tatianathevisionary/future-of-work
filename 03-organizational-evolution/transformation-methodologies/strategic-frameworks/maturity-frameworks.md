@@ -373,4 +373,4 @@
 
 ---
 
-*Last updated: December 2024 | Success rate: 85% | Implementation time: 2-8 months | Organizations: 600+*
+*Last updated: August 2025 | Success rate: 85% | Implementation time: 2-8 months | Organizations: 600+*

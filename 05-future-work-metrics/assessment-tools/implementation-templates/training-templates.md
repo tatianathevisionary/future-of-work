@@ -463,4 +463,4 @@ This Training framework provides comprehensive templates for planning, designing
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

@@ -281,4 +281,4 @@ This case study collection showcases successful cultural transformation initiati
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

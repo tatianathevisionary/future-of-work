@@ -385,4 +385,4 @@ The Leadership Assessment provides a systematic approach to evaluating change le
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

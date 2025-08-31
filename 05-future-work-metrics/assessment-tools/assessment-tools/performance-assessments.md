@@ -253,4 +253,4 @@ The framework evaluates performance across five key categories:
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

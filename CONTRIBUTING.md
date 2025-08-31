@@ -827,4 +827,4 @@ Every contribution, no matter how small, helps build the world's most comprehens
 
 ---
 
-*Last updated: December 2024 | Contributors: 500+ | Active maintainers: 25+ | Languages: 12+*
+*Last updated: August 2025 | Contributors: 500+ | Active maintainers: 25+ | Languages: 12+*

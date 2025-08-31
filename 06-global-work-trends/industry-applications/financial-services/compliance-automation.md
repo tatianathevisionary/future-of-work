@@ -252,4 +252,4 @@ Compliance with regulatory requirements.
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

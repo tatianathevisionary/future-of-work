@@ -344,4 +344,4 @@
 
 ---
 
-*Last updated: December 2024 | Success rate: 84% | Implementation time: 6-24 months | Organizations: 500+*
+*Last updated: August 2025 | Success rate: 84% | Implementation time: 6-24 months | Organizations: 500+*

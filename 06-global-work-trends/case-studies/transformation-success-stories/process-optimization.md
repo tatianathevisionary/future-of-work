@@ -274,4 +274,4 @@ This case study collection showcases successful process optimization initiatives
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*

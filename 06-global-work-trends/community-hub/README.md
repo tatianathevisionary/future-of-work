@@ -325,4 +325,4 @@ The Community & Collaboration Hub serves as the central platform for global coll
 
 ---
 
-*Last updated: December 2024 | Community members: 50,000+ | Countries: 85+ | Active projects: 200+*
+*Last updated: August 2025 | Community members: 50,000+ | Countries: 85+ | Active projects: 200+*

@@ -544,4 +544,4 @@ vis.plot_param_importances(study)
 
 ---
 
-*Last updated: December 2024 | Success rate: 88% | Implementation time: 6-12 weeks | Organizations: 900+*
+*Last updated: August 2025 | Success rate: 88% | Implementation time: 6-12 weeks | Organizations: 900+*

@@ -364,4 +364,4 @@ This document provides comprehensive benchmarking data for operations excellence
 
 ---
 
-*Last updated: December 2024 | Data sources: 50+ | Industries covered: 15+ | Companies benchmarked: 500+*
+*Last updated: August 2025 | Data sources: 50+ | Industries covered: 15+ | Companies benchmarked: 500+*

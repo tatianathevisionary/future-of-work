@@ -459,4 +459,4 @@ Change management is both an art and a science. Understanding proven methodologi
 
 ---
 
-*Last updated: December 2024 | Books: 40+ | Authors: 25+ | Categories: 6*
+*Last updated: August 2025 | Books: 40+ | Authors: 25+ | Categories: 6*

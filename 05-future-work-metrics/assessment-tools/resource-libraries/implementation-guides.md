@@ -479,4 +479,4 @@ This Implementation Guide framework provides comprehensive guidance for planning
 
 ---
 
-*Last updated: December 2024*
+*Last updated: August 2025*
