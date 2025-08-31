@@ -6,35 +6,35 @@ description: "The World's Most Comprehensive Knowledge Base for Preparing Organi
 
 <div class="hero-section text-center py-5 mb-5">
     <div class="container">
-        <h1 class="display-4 fw-bold text-primary mb-3">
+        <h1 class="display-4 fw-bold text-white mb-3">
             <i class="fas fa-rocket me-3"></i>Future of Work Encyclopedia
         </h1>
-        <p class="lead fs-4 text-muted mb-4">
+        <p class="lead fs-4 text-white mb-4">
             The World's Most Comprehensive Knowledge Base for Preparing Organizations, Operations, and Workforces for the AI-Powered Future of Work
         </p>
         <div class="hero-stats row justify-content-center">
             <div class="col-md-3 col-6 mb-3">
                 <div class="stat-card text-center p-3">
-                    <div class="stat-number text-primary fw-bold fs-2">6</div>
-                    <div class="stat-label text-muted">Knowledge Domains</div>
+                    <div class="stat-number text-white fw-bold fs-2">6</div>
+                    <div class="stat-label text-white">Knowledge Domains</div>
                 </div>
             </div>
             <div class="col-md-3 col-6 mb-3">
                 <div class="stat-card text-center p-3">
-                    <div class="stat-number text-primary fw-bold fs-2">131</div>
-                    <div class="stat-label text-muted">Specialized Directories</div>
+                    <div class="stat-number text-white fw-bold fs-2">131</div>
+                    <div class="stat-label text-white">Specialized Directories</div>
                 </div>
             </div>
             <div class="col-md-3 col-6 mb-3">
                 <div class="stat-card text-center p-3">
-                    <div class="stat-number text-primary fw-bold fs-2">338K+</div>
-                    <div class="stat-label text-muted">Words of Knowledge</div>
+                    <div class="stat-number text-white fw-bold fs-2">338K+</div>
+                    <div class="stat-label text-white">Words of Knowledge</div>
                 </div>
             </div>
             <div class="col-md-3 col-6 mb-3">
                 <div class="stat-card text-center p-3">
-                    <div class="stat-number text-primary fw-bold fs-2">50K+</div>
-                    <div class="stat-label text-muted">Global Users</div>
+                    <div class="stat-number text-white fw-bold fs-2">50K+</div>
+                    <div class="stat-label text-white">Global Users</div>
                 </div>
             </div>
         </div>
@@ -56,28 +56,28 @@ description: "The World's Most Comprehensive Knowledge Base for Preparing Organi
                         <div class="col-md-6 mb-3">
                             <h5 class="text-primary">🚀 Future of Work Assessment (5 min)</h5>
                             <ul class="list-unstyled">
-                                <li><a href="/05-future-work-metrics/assessment-tools/ai-readiness-assessment.html" class="text-decoration-none">
-                                    <i class="fas fa-robot me-2"></i>AI Readiness Assessment
+                                <li><a href="/QUICK-START.html" class="text-decoration-none">
+                                    <i class="fas fa-rocket me-2"></i>Quick Start Guide
                                 </a></li>
-                                <li><a href="/02-future-workforce-skills/skills-gap-analysis/skills-gap-calculator.html" class="text-decoration-none">
-                                    <i class="fas fa-chart-bar me-2"></i>Skills Gap Analysis
+                                <li><a href="/NAVIGATION.html" class="text-decoration-none">
+                                    <i class="fas fa-sitemap me-2"></i>Complete Navigation
                                 </a></li>
-                                <li><a href="/05-future-work-metrics/roi-frameworks/workforce-transformation-roi.html" class="text-decoration-none">
-                                    <i class="fas fa-calculator me-2"></i>Workforce Transformation ROI
+                                <li><a href="/project-documentation/" class="text-decoration-none">
+                                    <i class="fas fa-book me-2"></i>Project Documentation
                                 </a></li>
                             </ul>
                         </div>
                         <div class="col-md-6 mb-3">
                             <h5 class="text-primary">👥 Role-Based Entry Points</h5>
                             <ul class="list-unstyled">
-                                <li><a href="/02-future-workforce-skills/chro-guide.html" class="text-decoration-none">
-                                    <i class="fas fa-user-tie me-2"></i>CHRO & HR Leaders
+                                <li><a href="/CONTRIBUTING.html" class="text-decoration-none">
+                                    <i class="fas fa-hands-helping me-2"></i>Contributing Guidelines
                                 </a></li>
-                                <li><a href="/03-organizational-evolution/executive-guide.html" class="text-decoration-none">
-                                    <i class="fas fa-crown me-2"></i>C-Suite Executives
+                                <li><a href="/FAQ.html" class="text-decoration-none">
+                                    <i class="fas fa-question-circle me-2"></i>Frequently Asked Questions
                                 </a></li>
-                                <li><a href="/04-intelligent-operations/operations-leader-guide.html" class="text-decoration-none">
-                                    <i class="fas fa-cogs me-2"></i>Operations Leaders
+                                <li><a href="/SUPPORT.html" class="text-decoration-none">
+                                    <i class="fas fa-life-ring me-2"></i>Support & Help
                                 </a></li>
                             </ul>
                         </div>
@@ -99,19 +99,19 @@ description: "The World's Most Comprehensive Knowledge Base for Preparing Organi
                     <div class="domain-card card h-100 border-0 shadow-sm">
                         <div class="card-body text-center">
                             <div class="domain-icon mb-3">
-                                <i class="fas fa-robot fa-3x text-primary"></i>
+                                <i class="fas fa-robot fa-3x text-danger"></i>
                             </div>
-                            <h4 class="card-title text-primary">AI & Human Collaboration</h4>
+                            <h4 class="card-title text-danger">AI & Human Collaboration</h4>
                             <p class="card-text text-muted">Human-AI Partnership Models & Strategies</p>
                             <div class="domain-links">
-                                <a href="/01-ai-human-collaboration/ai-transformation/" class="btn btn-outline-primary btn-sm mb-2 w-100">
-                                    <i class="fas fa-rocket me-1"></i>AI Transformation
+                                <a href="/01-ai-human-collaboration/" class="btn btn-outline-danger btn-sm mb-2 w-100">
+                                    <i class="fas fa-rocket me-1"></i>Browse Domain
                                 </a>
-                                <a href="/01-ai-human-collaboration/workforce-transformation/" class="btn btn-outline-primary btn-sm mb-2 w-100">
-                                    <i class="fas fa-users me-1"></i>Workforce Transformation
+                                <a href="/NAVIGATION.html#ai-human-collaboration" class="btn btn-outline-danger btn-sm mb-2 w-100">
+                                    <i class="fas fa-sitemap me-1"></i>View Structure
                                 </a>
-                                <a href="/01-ai-human-collaboration/collaboration-patterns/" class="btn btn-outline-primary btn-sm mb-2 w-100">
-                                    <i class="fas fa-handshake me-1"></i>Collaboration Patterns
+                                <a href="/project-documentation/" class="btn btn-outline-danger btn-sm mb-2 w-100">
+                                    <i class="fas fa-book me-1"></i>Documentation
                                 </a>
                             </div>
                         </div>
@@ -128,14 +128,14 @@ description: "The World's Most Comprehensive Knowledge Base for Preparing Organi
                             <h4 class="card-title text-success">Future Workforce Skills</h4>
                             <p class="card-text text-muted">2025-2030 Skills & Competencies</p>
                             <div class="domain-links">
-                                <a href="/02-future-workforce-skills/skills-requirements/" class="btn btn-outline-success btn-sm mb-2 w-100">
-                                    <i class="fas fa-book me-1"></i>Skills Requirements
+                                <a href="/02-future-workforce-skills/" class="btn btn-outline-success btn-sm mb-2 w-100">
+                                    <i class="fas fa-book me-1"></i>Browse Domain
                                 </a>
-                                <a href="/02-future-workforce-skills/ai-literacy/" class="btn btn-outline-success btn-sm mb-2 w-100">
-                                    <i class="fas fa-brain me-1"></i>AI Literacy
+                                <a href="/NAVIGATION.html#future-workforce-skills" class="btn btn-outline-success btn-sm mb-2 w-100">
+                                    <i class="fas fa-sitemap me-1"></i>View Structure
                                 </a>
-                                <a href="/02-future-workforce-skills/reskilling-strategies/" class="btn btn-outline-success btn-sm mb-2 w-100">
-                                    <i class="fas fa-sync-alt me-1"></i>Reskilling Strategies
+                                <a href="/project-documentation/" class="btn btn-outline-success btn-sm mb-2 w-100">
+                                    <i class="fas fa-book me-1"></i>Documentation
                                 </a>
                             </div>
                         </div>
@@ -147,19 +147,19 @@ description: "The World's Most Comprehensive Knowledge Base for Preparing Organi
                     <div class="domain-card card h-100 border-0 shadow-sm">
                         <div class="card-body text-center">
                             <div class="domain-icon mb-3">
-                                <i class="fas fa-building fa-3x text-info"></i>
+                                <i class="fas fa-building fa-3x text-warning"></i>
                             </div>
-                            <h4 class="card-title text-info">Organizational Evolution</h4>
+                            <h4 class="card-title text-warning">Organizational Evolution</h4>
                             <p class="card-text text-muted">AI-Era Organizational Models</p>
                             <div class="domain-links">
-                                <a href="/03-organizational-evolution/change-management/" class="btn btn-outline-info btn-sm mb-2 w-100">
-                                    <i class="fas fa-bullseye me-1"></i>Change Management
+                                <a href="/03-organizational-evolution/" class="btn btn-outline-warning btn-sm mb-2 w-100">
+                                    <i class="fas fa-bullseye me-1"></i>Browse Domain
                                 </a>
-                                <a href="/03-organizational-evolution/organizational-culture/" class="btn btn-outline-info btn-sm mb-2 w-100">
-                                    <i class="fas fa-heart me-1"></i>Organizational Culture
+                                <a href="/NAVIGATION.html#organizational-evolution" class="btn btn-outline-warning btn-sm mb-2 w-100">
+                                    <i class="fas fa-sitemap me-1"></i>View Structure
                                 </a>
-                                <a href="/03-organizational-evolution/transformation-methodologies/" class="btn btn-outline-info btn-sm mb-2 w-100">
-                                    <i class="fas fa-magic me-1"></i>Transformation Methods
+                                <a href="/project-documentation/" class="btn btn-outline-warning btn-sm mb-2 w-100">
+                                    <i class="fas fa-book me-1"></i>Documentation
                                 </a>
                             </div>
                         </div>
@@ -171,19 +171,19 @@ description: "The World's Most Comprehensive Knowledge Base for Preparing Organi
                     <div class="domain-card card h-100 border-0 shadow-sm">
                         <div class="card-body text-center">
                             <div class="domain-icon mb-3">
-                                <i class="fas fa-cogs fa-3x text-warning"></i>
+                                <i class="fas fa-cogs fa-3x text-info"></i>
                             </div>
-                            <h4 class="card-title text-warning">Intelligent Operations</h4>
+                            <h4 class="card-title text-info">Intelligent Operations</h4>
                             <p class="card-text text-muted">AI-Powered Operational Excellence</p>
                             <div class="domain-links">
-                                <a href="/04-intelligent-operations/operational-excellence/" class="btn btn-outline-warning btn-sm mb-2 w-100">
-                                    <i class="fas fa-trophy me-1"></i>Operational Excellence
+                                <a href="/04-intelligent-operations/" class="btn btn-outline-info btn-sm mb-2 w-100">
+                                    <i class="fas fa-trophy me-1"></i>Browse Domain
                                 </a>
-                                <a href="/04-intelligent-operations/process-excellence/" class="btn btn-outline-warning btn-sm mb-2 w-100">
-                                    <i class="fas fa-sync me-1"></i>Process Excellence
+                                <a href="/NAVIGATION.html#intelligent-operations" class="btn btn-outline-info btn-sm mb-2 w-100">
+                                    <i class="fas fa-sitemap me-1"></i>View Structure
                                 </a>
-                                <a href="/04-intelligent-operations/digital-transformation/" class="btn btn-outline-warning btn-sm mb-2 w-100">
-                                    <i class="fas fa-digital-tachograph me-1"></i>Digital Transformation
+                                <a href="/project-documentation/" class="btn btn-outline-info btn-sm mb-2 w-100">
+                                    <i class="fas fa-book me-1"></i>Documentation
                                 </a>
                             </div>
                         </div>
@@ -195,19 +195,19 @@ description: "The World's Most Comprehensive Knowledge Base for Preparing Organi
                     <div class="domain-card card h-100 border-0 shadow-sm">
                         <div class="card-body text-center">
                             <div class="domain-icon mb-3">
-                                <i class="fas fa-chart-line fa-3x text-danger"></i>
+                                <i class="fas fa-chart-line fa-3x text-primary"></i>
                             </div>
-                            <h4 class="card-title text-danger">Future Work Metrics</h4>
+                            <h4 class="card-title text-primary">Future Work Metrics</h4>
                             <p class="card-text text-muted">Measuring Success in AI Era</p>
                             <div class="domain-links">
-                                <a href="/05-future-work-metrics/performance-analytics/" class="btn btn-outline-danger btn-sm mb-2 w-100">
-                                    <i class="fas fa-chart-bar me-1"></i>Performance Analytics
+                                <a href="/05-future-work-metrics/" class="btn btn-outline-primary btn-sm mb-2 w-100">
+                                    <i class="fas fa-chart-bar me-1"></i>Browse Domain
                                 </a>
-                                <a href="/05-future-work-metrics/kpi-frameworks/" class="btn btn-outline-danger btn-sm mb-2 w-100">
-                                    <i class="fas fa-target me-1"></i>KPI Frameworks
+                                <a href="/NAVIGATION.html#future-work-metrics" class="btn btn-outline-primary btn-sm mb-2 w-100">
+                                    <i class="fas fa-sitemap me-1"></i>View Structure
                                 </a>
-                                <a href="/05-future-work-metrics/assessment-tools/" class="btn btn-outline-danger btn-sm mb-2 w-100">
-                                    <i class="fas fa-tools me-1"></i>Assessment Tools
+                                <a href="/project-documentation/" class="btn btn-outline-primary btn-sm mb-2 w-100">
+                                    <i class="fas fa-book me-1"></i>Documentation
                                 </a>
                             </div>
                         </div>
@@ -224,14 +224,14 @@ description: "The World's Most Comprehensive Knowledge Base for Preparing Organi
                             <h4 class="card-title text-secondary">Global Work Trends</h4>
                             <p class="card-text text-muted">International Perspectives & Best Practices</p>
                             <div class="domain-links">
-                                <a href="/06-global-work-trends/industry-applications/" class="btn btn-outline-secondary btn-sm mb-2 w-100">
-                                    <i class="fas fa-industry me-1"></i>Industry Applications
+                                <a href="/06-global-work-trends/" class="btn btn-outline-secondary btn-sm mb-2 w-100">
+                                    <i class="fas fa-industry me-1"></i>Browse Domain
                                 </a>
-                                <a href="/06-global-work-trends/case-studies/" class="btn btn-outline-secondary btn-sm mb-2 w-100">
-                                    <i class="fas fa-book-open me-1"></i>Case Studies
+                                <a href="/NAVIGATION.html#global-work-trends" class="btn btn-outline-secondary btn-sm mb-2 w-100">
+                                    <i class="fas fa-sitemap me-1"></i>View Structure
                                 </a>
-                                <a href="/06-global-work-trends/community-hub/" class="btn btn-outline-secondary btn-sm mb-2 w-100">
-                                    <i class="fas fa-users me-1"></i>Community Hub
+                                <a href="/project-documentation/" class="btn btn-outline-secondary btn-sm mb-2 w-100">
+                                    <i class="fas fa-book me-1"></i>Documentation
                                 </a>
                             </div>
                         </div>
@@ -254,8 +254,8 @@ description: "The World's Most Comprehensive Knowledge Base for Preparing Organi
                     <a href="/NAVIGATION.html" class="btn btn-outline-light btn-lg">
                         <i class="fas fa-sitemap me-2"></i>Browse Knowledge
                     </a>
-                    <a href="/05-future-work-metrics/assessment-tools/" class="btn btn-outline-light btn-lg">
-                        <i class="fas fa-tools me-2"></i>Assessment Tools
+                    <a href="/project-documentation/" class="btn btn-outline-light btn-lg">
+                        <i class="fas fa-book me-2"></i>Project Documentation
                     </a>
                 </div>
             </div>

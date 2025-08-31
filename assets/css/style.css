@@ -1,16 +1,16 @@
 /* Custom Styles for Future of Work Encyclopedia Wiki */
 
 :root {
-  --primary-color: #2563eb;
-  --secondary-color: #7c3aed;
-  --accent-color: #f59e0b;
+  --primary-color: #dc2626;      /* Red */
+  --secondary-color: #ea580c;    /* Orange */
+  --accent-color: #2563eb;      /* Blue */
+  --success-color: #16a34a;      /* Green */
   --text-color: #1f2937;
   --light-bg: #f8fafc;
   --border-color: #e5e7eb;
-  --success-color: #10b981;
-  --info-color: #06b6d4;
-  --warning-color: #f59e0b;
-  --danger-color: #ef4444;
+  --info-color: #0891b2;         /* Darker Blue */
+  --warning-color: #d97706;      /* Darker Orange */
+  --danger-color: #b91c1c;       /* Darker Red */
 }
 
 body {
@@ -112,7 +112,7 @@ body {
 
 /* CTA Section */
 .cta-section {
-  background: linear-gradient(135deg, var(--accent-color), #f97316);
+  background: linear-gradient(135deg, var(--accent-color), var(--success-color));
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
@@ -291,6 +291,7 @@ body {
   color: var(--danger-color) !important;
 }
 
+/* Button Color Variants */
 .btn-outline-primary {
   border-color: var(--primary-color);
   color: var(--primary-color);
