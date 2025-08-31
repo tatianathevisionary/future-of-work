@@ -64,4 +64,7 @@ Thumbs.db
 
 # Git
 .git/
+
+# Nested repositories
+support-ops-research/
 .gitignore

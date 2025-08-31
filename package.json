@@ -1,0 +1,59 @@
+{
+  "name": "future-of-work-encyclopedia",
+  "version": "0.0.0-development",
+  "description": "The World's Most Comprehensive Knowledge Base for Preparing Organizations, Operations, and Workforces for the AI-Powered Future of Work",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0",
+    "semantic-release": "semantic-release",
+    "release": "semantic-release",
+    "release:dry-run": "semantic-release --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tatianathevisionary/future-of-work.git"
+  },
+  "keywords": [
+    "future-of-work",
+    "operations-excellence",
+    "ai-transformation",
+    "knowledge-base",
+    "research",
+    "workforce-development",
+    "organizational-change",
+    "digital-transformation",
+    "automation",
+    "change-management",
+    "frameworks",
+    "case-studies",
+    "best-practices"
+  ],
+  "author": "Tatiana The Visionary",
+  "license": "CC-BY-SA-4.0",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.6",
+    "@semantic-release/npm": "^10.0.6",
+    "semantic-release": "^21.1.1"
+  },
+  "release": {
+    "branches": ["main"],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      "@semantic-release/git"
+    ],
+    "preset": "angular",
+    "releaseRules": [
+      {"type": "docs", "release": "patch"},
+      {"type": "style", "release": "patch"},
+      {"type": "refactor", "release": "patch"},
+      {"type": "perf", "release": "patch"},
+      {"type": "test", "release": "patch"}
+    ]
+  }
+}
