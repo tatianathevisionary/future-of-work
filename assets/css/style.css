@@ -1,4 +1,4 @@
-/* Custom Styles for Future of Work Encyclopedia */
+/* Custom Styles for Future of Work Encyclopedia Wiki */
 
 :root {
   --primary-color: #2563eb;
@@ -7,252 +7,383 @@
   --text-color: #1f2937;
   --light-bg: #f8fafc;
   --border-color: #e5e7eb;
+  --success-color: #10b981;
+  --info-color: #06b6d4;
+  --warning-color: #f59e0b;
+  --danger-color: #ef4444;
 }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   line-height: 1.6;
   color: var(--text-color);
+  background-color: #f8fafc;
 }
 
-/* Header Styles */
-.page-header {
+/* Hero Section */
+.hero-section {
   background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
   color: white;
-  padding: 3rem 0;
-  text-align: center;
-  margin-bottom: 2rem;
+  margin-top: -1rem;
 }
 
-.page-header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+.hero-section h1 {
   font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.page-header p {
-  font-size: 1.2rem;
+.hero-section .lead {
+  opacity: 0.95;
+  font-weight: 300;
+}
+
+/* Stat Cards */
+.stat-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stat-label {
+  font-size: 0.9rem;
   opacity: 0.9;
-  max-width: 800px;
-  margin: 0 auto;
+  font-weight: 500;
 }
 
-/* Knowledge Domains Grid */
-.knowledge-domains {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin: 2rem 0;
+/* Domain Cards */
+.domain-card {
+  transition: all 0.3s ease;
+  border-radius: 16px;
+  overflow: hidden;
 }
 
-.knowledge-domains h3 {
-  color: var(--primary-color);
-  border-bottom: 2px solid var(--accent-color);
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
+.domain-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1) !important;
 }
 
-.knowledge-domains ul {
-  list-style: none;
-  padding: 0;
+.domain-icon {
+  margin-bottom: 1.5rem;
 }
 
-.knowledge-domains li {
+.domain-card .card-title {
+  font-weight: 600;
   margin-bottom: 0.5rem;
 }
 
-.knowledge-domains a {
-  color: var(--text-color);
-  text-decoration: none;
-  padding: 0.5rem;
-  border-radius: 6px;
-  transition: all 0.2s ease;
-  display: block;
+.domain-card .card-text {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
 }
 
-.knowledge-domains a:hover {
-  background-color: var(--light-bg);
-  color: var(--primary-color);
-  transform: translateX(5px);
+.domain-links .btn {
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.domain-links .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 /* Quick Start Section */
-.quick-start {
-  background: var(--light-bg);
-  padding: 2rem;
-  border-radius: 12px;
-  margin: 2rem 0;
-  border-left: 4px solid var(--accent-color);
+.card-header.bg-gradient-primary {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)) !important;
+  border: none;
+  border-radius: 12px 12px 0 0 !important;
 }
 
-.quick-start h2 {
-  color: var(--primary-color);
-  margin-bottom: 1rem;
+.card-header h2 {
+  font-weight: 600;
 }
 
 /* CTA Section */
 .cta-section {
   background: linear-gradient(135deg, var(--accent-color), #f97316);
-  color: white;
-  padding: 2rem;
-  border-radius: 12px;
-  text-align: center;
-  margin: 2rem 0;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
-.cta-section h3 {
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
-}
-
-/* Statistics */
-.statistics {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-  margin: 2rem 0;
-}
-
-.stat-item {
-  background: var(--light-bg);
-  padding: 1.5rem;
-  border-radius: 8px;
-  text-align: center;
-  border: 1px solid var(--border-color);
-}
-
-.stat-number {
-  font-size: 2rem;
+.cta-section h2 {
   font-weight: 700;
-  color: var(--primary-color);
-  display: block;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.stat-label {
-  color: var(--text-color);
-  font-size: 0.9rem;
-  margin-top: 0.5rem;
-}
-
-/* Navigation */
-.nav-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin: 2rem 0;
-  justify-content: center;
-}
-
-.nav-links a {
-  background: var(--primary-color);
-  color: white;
+.cta-section .btn {
+  border-radius: 10px;
+  font-weight: 600;
   padding: 0.75rem 1.5rem;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
 }
 
-.nav-links a:hover {
-  background: var(--secondary-color);
-  transform: translateY(-2px);
+.cta-section .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
 }
 
-/* Footer */
-.site-footer {
-  background: var(--light-bg);
-  padding: 2rem 0;
-  margin-top: 3rem;
-  border-top: 1px solid var(--border-color);
-  text-align: center;
+/* Sidebar Navigation */
+.sidebar {
+  min-height: calc(100vh - 76px);
+  box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+  background: white !important;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .page-header h1 {
-    font-size: 2rem;
-  }
-  
-  .knowledge-domains {
-    grid-template-columns: 1fr;
-  }
-  
-  .statistics {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .nav-links {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-/* Code blocks */
-pre {
-  background: #1e293b;
-  color: #e2e8f0;
-  padding: 1rem;
-  border-radius: 6px;
-  overflow-x: auto;
-}
-
-code {
-  background: var(--light-bg);
-  padding: 0.2rem 0.4rem;
-  border-radius: 4px;
-  font-family: 'Monaco', 'Menlo', monospace;
-}
-
-/* Tables */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
-}
-
-th, td {
-  padding: 0.75rem;
-  text-align: left;
+.sidebar-header {
   border-bottom: 1px solid var(--border-color);
 }
 
-th {
-  background: var(--light-bg);
+.sidebar-heading {
+  font-size: 0.75rem;
   font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
-/* Links */
-a {
+.sidebar .nav-link {
+  color: var(--text-color);
+  border-radius: 8px;
+  margin: 0.25rem 0.5rem;
+  padding: 0.5rem 0.75rem;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.sidebar .nav-link:hover {
+  background-color: var(--light-bg);
   color: var(--primary-color);
-  text-decoration: none;
+  transform: translateX(5px);
 }
 
-a:hover {
-  text-decoration: underline;
+.sidebar .nav-link.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.sidebar .nav-link i {
+  width: 20px;
+  text-align: center;
+}
+
+/* Main Content */
+.content-wrapper {
+  padding: 2rem 0;
+}
+
+/* Navigation Header */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgba(255,255,255,0.1);
+  transform: translateY(-2px);
+}
+
+/* Cards */
+.card {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.card-header {
+  border-radius: 12px 12px 0 0 !important;
+  border: none;
 }
 
 /* Buttons */
 .btn {
-  display: inline-block;
-  background: var(--primary-color);
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 6px;
-  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
   transition: all 0.2s ease;
-  border: none;
-  cursor: pointer;
-  font-size: 1rem;
 }
 
 .btn:hover {
-  background: var(--secondary-color);
   transform: translateY(-2px);
 }
 
-.btn-secondary {
-  background: var(--secondary-color);
+/* Footer */
+.footer {
+  background: white !important;
+  border-top: 1px solid var(--border-color);
 }
 
-.btn-accent {
-  background: var(--accent-color);
+.footer a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: var(--secondary-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-section .lead {
+    font-size: 1.1rem;
+  }
+  
+  .stat-number {
+    font-size: 2rem;
+  }
+  
+  .sidebar {
+    position: static;
+    min-height: auto;
+    margin-bottom: 2rem;
+  }
+  
+  .domain-card {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Utility Classes */
+.bg-gradient-primary {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)) !important;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.text-success {
+  color: var(--success-color) !important;
+}
+
+.text-info {
+  color: var(--info-color) !important;
+}
+
+.text-warning {
+  color: var(--warning-color) !important;
+}
+
+.text-danger {
+  color: var(--danger-color) !important;
+}
+
+.btn-outline-primary {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-outline-success {
+  border-color: var(--success-color);
+  color: var(--success-color);
+}
+
+.btn-outline-success:hover {
+  background-color: var(--success-color);
+  border-color: var(--success-color);
+}
+
+.btn-outline-info {
+  border-color: var(--info-color);
+  color: var(--info-color);
+}
+
+.btn-outline-info:hover {
+  background-color: var(--info-color);
+  border-color: var(--info-color);
+}
+
+.btn-outline-warning {
+  border-color: var(--warning-color);
+  color: var(--warning-color);
+}
+
+.btn-outline-warning:hover {
+  background-color: var(--warning-color);
+  border-color: var(--warning-color);
+}
+
+.btn-outline-danger {
+  border-color: var(--danger-color);
+  color: var(--danger-color);
+}
+
+.btn-outline-danger:hover {
+  background-color: var(--danger-color);
+  border-color: var(--danger-color);
+}
+
+.btn-outline-secondary {
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+/* Animation Classes */
+.fade-in {
+  animation: fadeIn 0.6s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Hover Effects */
+.hover-lift {
+  transition: transform 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--light-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
 }

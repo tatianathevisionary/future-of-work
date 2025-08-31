@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{{ '/' | relative_url }}">
+                <i class="fas fa-rocket me-2"></i>
+                Future of Work Encyclopedia
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ '/QUICK-START.html' | relative_url }}">
+                            <i class="fas fa-play me-1"></i>Quick Start
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ '/NAVIGATION.html' | relative_url }}">
+                            <i class="fas fa-sitemap me-1"></i>Browse
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ '/CONTRIBUTING.html' | relative_url }}">
+                            <i class="fas fa-hands-helping me-1"></i>Contribute
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/tatianathevisionary/future-of-work">
+                            <i class="fab fa-github me-1"></i>GitHub
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar Navigation -->
+            <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
+                <div class="position-sticky pt-3">
+                    <div class="sidebar-header">
+                        <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                            <span>Knowledge Domains</span>
+                        </h6>
+                    </div>
+                    
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ '/01-ai-human-collaboration/' | relative_url }}">
+                                <i class="fas fa-robot me-2"></i>
+                                AI & Human Collaboration
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ '/02-future-workforce-skills/' | relative_url }}">
+                                <i class="fas fa-users me-2"></i>
+                                Future Workforce Skills
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ '/03-organizational-evolution/' | relative_url }}">
+                                <i class="fas fa-building me-2"></i>
+                                Organizational Evolution
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ '/04-intelligent-operations/' | relative_url }}">
+                                <i class="fas fa-cogs me-2"></i>
+                                Intelligent Operations
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ '/05-future-work-metrics/' | relative_url }}">
+                                <i class="fas fa-chart-line me-2"></i>
+                                Future Work Metrics
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ '/06-global-work-trends/' | relative_url }}">
+                                <i class="fas fa-globe me-2"></i>
+                                Global Work Trends
+                            </a>
+                        </li>
+                    </ul>
+                    
+                    <div class="sidebar-header mt-4">
+                        <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                            <span>Quick Access</span>
+                        </h6>
+                    </div>
+                    
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ '/QUICK-START.html' | relative_url }}">
+                                <i class="fas fa-rocket me-2"></i>
+                                Quick Start Guide
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ '/05-future-work-metrics/assessment-tools/' | relative_url }}">
+                                <i class="fas fa-tools me-2"></i>
+                                Assessment Tools
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ '/CONTRIBUTING.html' | relative_url }}">
+                                <i class="fas fa-edit me-2"></i>
+                                Contributing
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ '/FAQ.html' | relative_url }}">
+                                <i class="fas fa-question-circle me-2"></i>
+                                FAQ
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Main Content Area -->
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="content-wrapper">
+                    {{ content }}
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">
+                        <i class="fas fa-heart text-danger me-1"></i>
+                        Built with ❤️ for the future of work
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">
+                        <a href="https://github.com/tatianathevisionary/future-of-work" class="text-decoration-none">
+                            <i class="fab fa-github me-1"></i>View on GitHub
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script>
+        // Add active class to current page in sidebar
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPath = window.location.pathname;
+            const navLinks = document.querySelectorAll('.sidebar .nav-link');
+            
+            navLinks.forEach(link => {
+                if (link.getAttribute('href') === currentPath) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -57,7 +57,7 @@ include:
   - assets
 
 # Theme settings
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman  # Using custom layout instead
 
 # Social media
 github_username: tatianathevisionary
