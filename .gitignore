@@ -65,4 +65,3 @@ Thumbs.db
 # Git
 .git/
 .gitignore
-prompts/
