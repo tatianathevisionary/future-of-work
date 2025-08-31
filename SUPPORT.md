@@ -1,3 +1,9 @@
+---
+layout: default
+title: "🆘 Support & Help"
+description: "Getting Help with the Future of Work Encyclopedia"
+---
+
 # 🆘 Support & Help
 ## **Getting Help with the Future of Work Encyclopedia**
 

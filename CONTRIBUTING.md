@@ -1,3 +1,9 @@
+---
+layout: default
+title: "🤝 Contributing to the Future of Work Encyclopedia"
+description: "Join Our Mission to Democratize Future of Work Knowledge"
+---
+
 # 🤝 Contributing to the Future of Work Encyclopedia
 ## **Join Our Mission to Democratize Future of Work Knowledge**
 

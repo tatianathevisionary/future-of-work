@@ -10,6 +10,7 @@ baseurl: "/future-of-work"
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
+show_dirs: true
 
 # Collections
 collections:
@@ -66,21 +67,21 @@ github_repository: future-of-work
 # Navigation
 nav:
   - title: "🚀 Quick Start"
-    url: "/QUICK-START.html"
+    url: "/QUICK-START"
   - title: "📚 Knowledge Domains"
-    url: "/NAVIGATION.html"
+    url: "/NAVIGATION"
   - title: "🛠️ Assessment Tools"
     url: "/05-future-work-metrics/assessment-tools/"
   - title: "🤝 Contributing"
-    url: "/CONTRIBUTING.html"
+    url: "/CONTRIBUTING"
   - title: "📖 Project Documentation"
     url: "/project-documentation/"
 
 # Footer
 footer:
   - title: "License"
-    url: "/LICENSE.html"
+    url: "/LICENSE"
   - title: "Code of Conduct"
-    url: "/CODE_OF_CONDUCT.html"
+    url: "/CODE_OF_CONDUCT"
   - title: "Support"
-    url: "/SUPPORT.html"
+    url: "/SUPPORT"

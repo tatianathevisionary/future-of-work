@@ -1,3 +1,9 @@
+---
+layout: default
+title: "📜 License"
+description: "Creative Commons Attribution-ShareAlike 4.0 International"
+---
+
 # 📜 License
 ## **Creative Commons Attribution-ShareAlike 4.0 International**
 

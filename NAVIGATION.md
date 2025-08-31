@@ -1,3 +1,9 @@
+---
+layout: default
+title: "🗺️ Site Navigation & Cross-References"
+description: "Future of Work & Operations Excellence Encyclopedia - Complete Site Map"
+---
+
 # 🗺️ Site Navigation & Cross-References
 ## **Future of Work & Operations Excellence Encyclopedia - Complete Site Map**
 

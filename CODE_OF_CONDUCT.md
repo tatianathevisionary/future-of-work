@@ -1,3 +1,9 @@
+---
+layout: default
+title: "🤝 Code of Conduct"
+description: "Operations Transformation Encyclopedia Community Standards"
+---
+
 # 🤝 Code of Conduct
 ## **Operations Transformation Encyclopedia Community Standards**
 

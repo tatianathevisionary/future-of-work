@@ -1,3 +1,9 @@
+---
+layout: default
+title: "🚀 Quick Start Guide - Future of Work Encyclopedia"
+description: "Get Started in 15 Minutes - Transform Your Organization for the AI-Powered Future"
+---
+
 # 🚀 Quick Start Guide - Future of Work & Operations Excellence Encyclopedia
 ### *Get Started in 15 Minutes - Transform Your Organization for the AI-Powered Future*
 

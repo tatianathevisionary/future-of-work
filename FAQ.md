@@ -1,3 +1,9 @@
+---
+layout: default
+title: "❓ Frequently Asked Questions"
+description: "Future of Work Encyclopedia - Common Questions & Answers"
+---
+
 # ❓ Frequently Asked Questions
 ## **Future of Work Encyclopedia - Common Questions & Answers**
 
