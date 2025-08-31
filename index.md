@@ -56,10 +56,10 @@ description: "The World's Most Comprehensive Knowledge Base for Preparing Organi
                         <div class="col-md-6 mb-3">
                             <h5 class="text-primary">🚀 Future of Work Assessment (5 min)</h5>
                             <ul class="list-unstyled">
-                                <li><a href="/QUICK-START.html" class="text-decoration-none">
+                                <li><a href="/QUICK-START" class="text-decoration-none">
                                     <i class="fas fa-rocket me-2"></i>Quick Start Guide
                                 </a></li>
-                                <li><a href="/NAVIGATION.html" class="text-decoration-none">
+                                <li><a href="/NAVIGATION" class="text-decoration-none">
                                     <i class="fas fa-sitemap me-2"></i>Complete Navigation
                                 </a></li>
                                 <li><a href="/project-documentation/" class="text-decoration-none">
@@ -70,13 +70,13 @@ description: "The World's Most Comprehensive Knowledge Base for Preparing Organi
                         <div class="col-md-6 mb-3">
                             <h5 class="text-primary">👥 Role-Based Entry Points</h5>
                             <ul class="list-unstyled">
-                                <li><a href="/CONTRIBUTING.html" class="text-decoration-none">
+                                <li><a href="/CONTRIBUTING" class="text-decoration-none">
                                     <i class="fas fa-hands-helping me-2"></i>Contributing Guidelines
                                 </a></li>
-                                <li><a href="/FAQ.html" class="text-decoration-none">
+                                <li><a href="/FAQ" class="text-decoration-none">
                                     <i class="fas fa-question-circle me-2"></i>Frequently Asked Questions
                                 </a></li>
-                                <li><a href="/SUPPORT.html" class="text-decoration-none">
+                                <li><a href="/SUPPORT" class="text-decoration-none">
                                     <i class="fas fa-life-ring me-2"></i>Support & Help
                                 </a></li>
                             </ul>
@@ -107,7 +107,7 @@ description: "The World's Most Comprehensive Knowledge Base for Preparing Organi
                                 <a href="/01-ai-human-collaboration/" class="btn btn-outline-danger btn-sm mb-2 w-100">
                                     <i class="fas fa-rocket me-1"></i>Browse Domain
                                 </a>
-                                <a href="/NAVIGATION.html#ai-human-collaboration" class="btn btn-outline-danger btn-sm mb-2 w-100">
+                                <a href="/NAVIGATION#ai-human-collaboration" class="btn btn-outline-danger btn-sm mb-2 w-100">
                                     <i class="fas fa-sitemap me-1"></i>View Structure
                                 </a>
                                 <a href="/project-documentation/" class="btn btn-outline-danger btn-sm mb-2 w-100">
@@ -131,7 +131,7 @@ description: "The World's Most Comprehensive Knowledge Base for Preparing Organi
                                 <a href="/02-future-workforce-skills/" class="btn btn-outline-success btn-sm mb-2 w-100">
                                     <i class="fas fa-book me-1"></i>Browse Domain
                                 </a>
-                                <a href="/NAVIGATION.html#future-workforce-skills" class="btn btn-outline-success btn-sm mb-2 w-100">
+                                <a href="/NAVIGATION#future-workforce-skills" class="btn btn-outline-success btn-sm mb-2 w-100">
                                     <i class="fas fa-sitemap me-1"></i>View Structure
                                 </a>
                                 <a href="/project-documentation/" class="btn btn-outline-success btn-sm mb-2 w-100">
@@ -155,7 +155,7 @@ description: "The World's Most Comprehensive Knowledge Base for Preparing Organi
                                 <a href="/03-organizational-evolution/" class="btn btn-outline-warning btn-sm mb-2 w-100">
                                     <i class="fas fa-bullseye me-1"></i>Browse Domain
                                 </a>
-                                <a href="/NAVIGATION.html#organizational-evolution" class="btn btn-outline-warning btn-sm mb-2 w-100">
+                                <a href="/NAVIGATION#organizational-evolution" class="btn btn-outline-warning btn-sm mb-2 w-100">
                                     <i class="fas fa-sitemap me-1"></i>View Structure
                                 </a>
                                 <a href="/project-documentation/" class="btn btn-outline-warning btn-sm mb-2 w-100">
@@ -179,7 +179,7 @@ description: "The World's Most Comprehensive Knowledge Base for Preparing Organi
                                 <a href="/04-intelligent-operations/" class="btn btn-outline-info btn-sm mb-2 w-100">
                                     <i class="fas fa-trophy me-1"></i>Browse Domain
                                 </a>
-                                <a href="/NAVIGATION.html#intelligent-operations" class="btn btn-outline-info btn-sm mb-2 w-100">
+                                <a href="/NAVIGATION#intelligent-operations" class="btn btn-outline-info btn-sm mb-2 w-100">
                                     <i class="fas fa-sitemap me-1"></i>View Structure
                                 </a>
                                 <a href="/project-documentation/" class="btn btn-outline-info btn-sm mb-2 w-100">
@@ -203,7 +203,7 @@ description: "The World's Most Comprehensive Knowledge Base for Preparing Organi
                                 <a href="/05-future-work-metrics/" class="btn btn-outline-primary btn-sm mb-2 w-100">
                                     <i class="fas fa-chart-bar me-1"></i>Browse Domain
                                 </a>
-                                <a href="/NAVIGATION.html#future-work-metrics" class="btn btn-outline-primary btn-sm mb-2 w-100">
+                                <a href="/NAVIGATION#future-work-metrics" class="btn btn-outline-primary btn-sm mb-2 w-100">
                                     <i class="fas fa-sitemap me-1"></i>View Structure
                                 </a>
                                 <a href="/project-documentation/" class="btn btn-outline-primary btn-sm mb-2 w-100">
@@ -227,7 +227,7 @@ description: "The World's Most Comprehensive Knowledge Base for Preparing Organi
                                 <a href="/06-global-work-trends/" class="btn btn-outline-secondary btn-sm mb-2 w-100">
                                     <i class="fas fa-industry me-1"></i>Browse Domain
                                 </a>
-                                <a href="/NAVIGATION.html#global-work-trends" class="btn btn-outline-secondary btn-sm mb-2 w-100">
+                                <a href="/NAVIGATION#global-work-trends" class="btn btn-outline-secondary btn-sm mb-2 w-100">
                                     <i class="fas fa-sitemap me-1"></i>View Structure
                                 </a>
                                 <a href="/project-documentation/" class="btn btn-outline-secondary btn-sm mb-2 w-100">
@@ -248,10 +248,10 @@ description: "The World's Most Comprehensive Knowledge Base for Preparing Organi
                 <h2 class="text-white mb-3">🚀 Ready to Transform Your Organization?</h2>
                 <p class="text-white fs-5 mb-4">Start your journey into the future of work today</p>
                 <div class="d-flex justify-content-center gap-3 flex-wrap">
-                    <a href="/QUICK-START.html" class="btn btn-light btn-lg">
+                    <a href="/QUICK-START" class="btn btn-light btn-lg">
                         <i class="fas fa-play me-2"></i>Quick Start Guide
                     </a>
-                    <a href="/NAVIGATION.html" class="btn btn-outline-light btn-lg">
+                    <a href="/NAVIGATION" class="btn btn-outline-light btn-lg">
                         <i class="fas fa-sitemap me-2"></i>Browse Knowledge
                     </a>
                     <a href="/project-documentation/" class="btn btn-outline-light btn-lg">

@@ -139,12 +139,12 @@ description: "Comprehensive frameworks and tools for measuring success in the AI
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-4 mb-3">
-                            <a href="/QUICK-START.html" class="btn btn-primary w-100">
+                            <a href="/QUICK-START" class="btn btn-primary w-100">
                                 <i class="fas fa-play me-2"></i>Get Started
                             </a>
                         </div>
                         <div class="col-md-4 mb-3">
-                            <a href="/NAVIGATION.html" class="btn btn-outline-primary w-100">
+                            <a href="/NAVIGATION" class="btn btn-outline-primary w-100">
                                 <i class="fas fa-sitemap me-2"></i>Browse All Domains
                             </a>
                         </div>
