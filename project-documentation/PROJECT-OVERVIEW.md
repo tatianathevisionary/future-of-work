@@ -16,7 +16,7 @@ Prepare every organization for the AI-powered future of work while maintaining o
 - **Files:** 227 comprehensive documents and tools
 - **Markdown Files:** 222 detailed knowledge articles
 - **HTML Tools:** 4 interactive calculators and assessment tools
-- **Global Users:** 50,000+ users across operations, HR, and C-suite
+- **Founded:** August 29, 2025 - Live within 24 hours on August 30, 2025
 
 ## 🏗️ **Knowledge Architecture**
 

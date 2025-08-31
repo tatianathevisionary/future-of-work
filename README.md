@@ -6,7 +6,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/future-of-work-encyclopedia/knowledge-base?style=for-the-badge&logo=github&color=gold)](https://github.com/future-of-work-encyclopedia/knowledge-base)
 [![Contributors](https://img.shields.io/github/contributors/future-of-work-encyclopedia/knowledge-base?style=for-the-badge&logo=github&color=blue)](https://github.com/future-of-work-encyclopedia/knowledge-base/graphs/contributors)
 [![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg?style=for-the-badge)](LICENSE.md)
-[![Global Users](https://img.shields.io/badge/Global%20Users-50K%2B-brightgreen?style=for-the-badge)](README.md)
+[![Status](https://img.shields.io/badge/Status-Founded%20Aug%2029%2C%202025-brightgreen?style=for-the-badge)](README.md)
 
 **🎯 Preparing organizations for AI-powered future • Building human-AI excellence • Transforming operations while future-proofing workforces**
 
@@ -209,7 +209,7 @@ The encyclopedia is structured across **6 major domains** with **131 specialized
 ## 📈 **Success Stories & Impact**
 
 ### **🏆 Industry Recognition**
-- **50,000+ global users** across operations, HR, and C-suite
+- **Founded August 29, 2025** - Live within 24 hours on August 30, 2025
 - **200+ case studies** from leading organizations worldwide
 - **25+ interactive tools** for assessment and implementation
 - **Comprehensive research** on future of work trends

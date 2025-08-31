@@ -33,8 +33,8 @@ description: "The World's Most Comprehensive Knowledge Base for Preparing Organi
             </div>
             <div class="col-md-3 col-6 mb-3">
                 <div class="stat-card text-center p-3">
-                    <div class="stat-number text-white fw-bold fs-2">50K+</div>
-                    <div class="stat-label text-white">Global Users</div>
+                    <div class="stat-number text-white fw-bold fs-2">1</div>
+                    <div class="stat-label text-white">Founder</div>
                 </div>
             </div>
         </div>
