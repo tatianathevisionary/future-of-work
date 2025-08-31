@@ -1,0 +1,86 @@
+# Jekyll Configuration for GitHub Pages
+# This enables your repository to be built as a website
+
+title: "Future of Work Encyclopedia"
+description: "The World's Most Comprehensive Knowledge Base for Preparing Organizations, Operations, and Workforces for the AI-Powered Future of Work"
+url: "https://tatianathevisionary.github.io"
+baseurl: "/future-of-work"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Collections
+collections:
+  knowledge:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "knowledge"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - .git/
+  - .github/
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - .releaserc.json
+  - semantic-release.config.js
+  - COMMIT_MESSAGE_GUIDE.md
+  - RELEASING.md
+  - support-ops-research/
+
+# Include in processing
+include:
+  - _pages
+  - _layouts
+  - _includes
+  - assets
+
+# Theme settings
+theme: jekyll-theme-cayman
+
+# Social media
+github_username: tatianathevisionary
+github_repository: future-of-work
+
+# Navigation
+nav:
+  - title: "🚀 Quick Start"
+    url: "/QUICK-START.html"
+  - title: "📚 Knowledge Domains"
+    url: "/NAVIGATION.html"
+  - title: "🛠️ Assessment Tools"
+    url: "/05-future-work-metrics/assessment-tools/"
+  - title: "🤝 Contributing"
+    url: "/CONTRIBUTING.html"
+  - title: "📖 Project Documentation"
+    url: "/project-documentation/"
+
+# Footer
+footer:
+  - title: "License"
+    url: "/LICENSE.html"
+  - title: "Code of Conduct"
+    url: "/CODE_OF_CONDUCT.html"
+  - title: "Support"
+    url: "/SUPPORT.html"
