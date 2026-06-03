@@ -3,8 +3,8 @@
 
 <div align="center">
 
-[![GitHub Stars](https://img.shields.io/github/stars/future-of-work-encyclopedia/knowledge-base?style=for-the-badge&logo=github&color=gold)](https://github.com/future-of-work-encyclopedia/knowledge-base)
-[![Contributors](https://img.shields.io/github/contributors/future-of-work-encyclopedia/knowledge-base?style=for-the-badge&logo=github&color=blue)](https://github.com/future-of-work-encyclopedia/knowledge-base/graphs/contributors)
+[![GitHub Stars](https://img.shields.io/github/stars/tatianathevisionary/future-of-work?style=for-the-badge&logo=github&color=gold)](https://github.com/tatianathevisionary/future-of-work)
+[![Contributors](https://img.shields.io/github/contributors/tatianathevisionary/future-of-work?style=for-the-badge&logo=github&color=blue)](https://github.com/tatianathevisionary/future-of-work/graphs/contributors)
 [![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg?style=for-the-badge)](LICENSE.md)
 [![Status](https://img.shields.io/badge/Status-Founded%20Aug%2029%2C%202025-brightgreen?style=for-the-badge)](README.md)
 [![AI Built](https://img.shields.io/badge/AI%20Built-RivalSearchMCP%20%2B%20Cursor-blue?style=for-the-badge)](README.md)
